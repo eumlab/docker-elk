@@ -7,3 +7,9 @@
   pipeline.workers: 1
 - pipeline.id: mongodb_master_primary_slowquery_log
   path.config: "/usr/share/logstash/pipeline/mongodb_master_primary.conf"
+- pipeline.id: mongodb_master_secondary_slowquery_log
+  path.config: "/usr/share/logstash/pipeline/mongodb_master_secondary.conf"
+- pipeline.id: mongodb_log_primary_slowquery_log
+  path.config: "/usr/share/logstash/pipeline/mongodb_log_primary.conf"
+- pipeline.id: mongodb_biglog_primary_slowquery_log
+  path.config: "/usr/share/logstash/pipeline/mongodb_biglog_primary.conf"
