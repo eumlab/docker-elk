@@ -2,9 +2,9 @@
 # For more information on multiple pipelines, see the documentation:
 #   https://www.elastic.co/guide/en/logstash/current/multiple-pipelines.html
 
-- pipeline.id: nginx_log
-  path.config: "/usr/share/logstash/pipeline/nginx_log.conf"
-  pipeline.workers: 1
+# - pipeline.id: nginx_log
+  # path.config: "/usr/share/logstash/pipeline/nginx_log.conf"
+  # pipeline.workers: 1
 
 - pipeline.id: mongodb_master_primary_slowquery_log
   path.config: "/usr/share/logstash/pipeline/mongodb_master_primary.conf"
